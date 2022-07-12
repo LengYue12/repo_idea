@@ -17,7 +17,7 @@ import java.util.Map;
     图片上传工具类
  */
 public class FileUploadUtils {
-    public static final String LOCAL_URL = "http://localhost:8080";
+    public static final String LOCAL_URL = "http://192.168.114.128:3306:8080";
     // 参数名要与 前台请求参数 的key 保持一致
     public static Map<String, String> fileUploadUtils(MultipartFile file, HttpServletRequest request) throws IOException {
         // 1.判断接收到的上传文件是否为空
